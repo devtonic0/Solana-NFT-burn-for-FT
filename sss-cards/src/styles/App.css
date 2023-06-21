@@ -1,0 +1,294 @@
+@media (max-width: 992px)  {
+
+  body {
+    background-color: #686868;
+    background-repeat: false;
+    background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover; 
+    margin: 0;
+    font-family: "BohemianTypewriter", "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 18px;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: overlay;
+  }
+  .background {
+    display: none;
+  }
+  .text1 {
+    font-size: 1.5rem; 
+  }
+  .text2 {
+   display: none;
+  }
+  .text3 {
+    position: fixed;
+  }
+  }
+
+body {
+ 
+  background-repeat: false;
+  background-attachment: fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover; 
+  margin: 0;
+  font-family: "BohemianTypewriter", "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
+  height: 100vh;
+  width: 100vw;
+  overflow-y: overlay;
+}
+.text3 {
+  display: none;
+}
+.text1 {
+  font-size: 36px; 
+}
+.text2 {
+  font-size: 22px; 
+}
+.card-title {
+  font-size: 12px;
+} 
+.mobileText {
+   display: none; 
+}
+.nauts {
+  font-size: 16px;
+  color: #ffffff;
+  border-color: #ffffff;
+  border: 2px;
+  float: left;
+  margin-left: 2px;
+}
+@keyframes bg {
+  0% {
+      background-size:    10% 2px,
+                          2px 10%,
+                          10% 2px,
+                          2px 10%;
+  }
+  50% {
+      background-size:    10% 2px,
+                          2px 100%,
+                          10% 2px,
+                          2px 100%;
+  }
+  100% {
+      background-size:    100% 2px,
+                          2px 100%,
+                          100% 2px,
+                          2px 100%;
+  }
+
+}
+
+.nauts {
+  
+ 
+  padding: 2px;
+  background-repeat: no-repeat;
+  background-image:   linear-gradient(to right, #C9C9C9 100%, #C9C9C9 100%),
+                      linear-gradient(to bottom, #C9C9C9 100%, #C9C9C9 100%),
+                      linear-gradient(to right, #C9C9C9 100%, #C9C9C9 100%),
+                      linear-gradient(to bottom, #C9C9C9 100%, #C9C9C9 100%);
+  background-size:    0% 2px,
+                      2px 0%,
+                      0% 2px,
+                      2px 0%;
+  background-position:    0 0,
+                          100% 0,
+                          100% 100%,
+                          0 100%;
+
+}
+
+.nauts:hover {
+  animation: bg 1s;
+  background-repeat: no-repeat;
+  background-image:   linear-gradient(to right, #C9C9C9 100%, #C9C9C9 100%),
+                      linear-gradient(to bottom, #C9C9C9 100%, #C9C9C9 100%),
+                      linear-gradient(to right, #C9C9C9 100%, #C9C9C9 100%),
+                      linear-gradient(to bottom, #C9C9C9 100%, #C9C9C9 100%);
+  background-size:    100% 2px,
+                      2px 100%,
+                      100% 2px,
+                      2px 100%;
+}
+.clubCard {
+  
+ 
+  padding: 2px;
+  background-repeat: no-repeat;
+  background-image:   linear-gradient(to right, #C9C9C9 100%, #C9C9C9 100%),
+                      linear-gradient(to bottom, #C9C9C9 100%, #C9C9C9 100%),
+                      linear-gradient(to right, #C9C9C9 100%, #C9C9C9 100%),
+                      linear-gradient(to bottom, #C9C9C9 100%, #C9C9C9 100%);
+  background-size:    0% 2px,
+                      2px 0%,
+                      0% 2px,
+                      2px 0%;
+  background-position:    0 0,
+                          100% 0,
+                          100% 100%,
+                          0 100%;
+
+}
+
+.clubCard:hover {
+  animation: bg 1s;
+  background-repeat: no-repeat;
+  background-image:   linear-gradient(to right, #C9C9C9 100%, #C9C9C9 100%),
+                      linear-gradient(to bottom, #C9C9C9 100%, #C9C9C9 100%),
+                      linear-gradient(to right, #C9C9C9 100%, #C9C9C9 100%),
+                      linear-gradient(to bottom, #C9C9C9 100%, #C9C9C9 100%);
+  background-size:    100% 2px,
+                      2px 100%,
+                      100% 2px,
+                      2px 100%;
+}
+.clubCard {
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #c49808a1;
+  border: 1px;
+  border-color: #ffffff;
+  float: left;
+  margin-right: 5px;
+}
+
+.nauts:hover {
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #ffc40000;
+  border: 1px;
+  border-color: #ffffff;
+  float: left;
+  margin-left: 2px;
+}
+.selectAll {
+  color: #ffffff;
+}
+.selected {
+  font-size: 14px;
+}
+
+.loading {
+  background-image: url(../../public/assets/loader/SolDrop.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+}
+
+.wallet-menu-button {
+  background-image: url(../../public/assets/buttons/button.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #00000000 !important;
+  transition: background-size .2s, background-position .2s .2s;
+  color: #D7D7D6 !important;
+  cursor: pointer;
+  font-family: sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 600;
+  height: 50px !important;
+  width: 230px;
+  padding: 0 20px;
+}
+.wallet-menu-button:hover {
+  background-image: url(../../public/assets/buttons/buttonh.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-color: #00000000 !important;
+  transition: background-size .3s .3s, background-position .3s;
+  background-size: 200% 100%;
+  background-position: 120% 150%;
+}
+
+.ReactModal__Overlay {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+}
+.twitter {
+  background-image: url(../../public/assets/icons/twitter.svg) !important;
+  width: 60px;
+  height: 60px;
+
+}
+.discord {
+  background-image: url(../../public/assets/icons/discord.svg) !important;
+  width: 60px;
+  height: 60px;
+
+}
+.magic-eden {
+  background-image: url(../../public/assets/icons/magic-eden.svg) !important;
+  width: 60px;
+  height: 60px;
+
+}
+.twitter:hover {
+  background-image: url(../../public/assets/icons/twitterh.svg) !important;
+  width: 60px !important;
+  height: 60px !important;
+  transition: background-position .3s;
+  background-size: 130% 100%;
+  background-position: 50% 55%;
+
+}
+.discord:hover {
+  background-image: url(../../public/assets/icons/discordh.svg) !important;
+  width: 60px;
+  height: 60px;
+  transition:  background-position .3s;
+  background-size: 130% 100%;
+  background-position: 50% 55%;
+
+}
+.magic-eden:hover {
+  background-image: url(../../public/assets/icons/magic-edenh.svg) !important;
+  width: 60px;
+  height: 60px;
+  transition:  background-position .3s;
+  background-size: 130% 100%;
+  background-position: 50% 55%;
+
+}
+.av-modal {
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border-radius: 8px;
+  overflow: hidden;
+  outline: none;
+  z-index: 9999;
+}
+.confirm {
+  z-index: 9999;
+}
+.modal-backdrop{
+  z-index:-1;
+}
+.av-modal .close-header {
+  padding: 12px;
+  width: 100%;
+  z-index: 9999;
+}

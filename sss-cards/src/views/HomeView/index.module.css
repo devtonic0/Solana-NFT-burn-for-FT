@@ -1,0 +1,8 @@
+
+.test-back{
+  background-image: url("../../../public/back.gif");
+  background-size: 100%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+

@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+
+@layer base {
+    @font-face {
+        font-family: 'BohemianTypewriter';
+        src: url('../assets/font/BohemianTypewriter.ttf') format('woff');
+    }
+}
+
+@tailwind utilities;
+ 
+  
